@@ -4,6 +4,7 @@ import time
 import ipaddress
 from sae503_bdd_set import *
 import json
+
 # Cette fonction va permettre de recevoir un reponse CONNACK lorsque le client se connecte au serveur.
 def on_connect(client, userdata, flags, rc):
     '''' Cette fonction va permettre de recevoir un reponse CONNACK lorsque le client se connecte au serveur.'''
